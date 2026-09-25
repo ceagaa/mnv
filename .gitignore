@@ -44,3 +44,26 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# ==========================================
+# DevSecOps & Security Hardening
+# ==========================================
+
+# Environment variables & secrets
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# AI Prompts, Agents & Internal Documentation
+*.md
+!README.md
+.agents/
+prompts/
+docs/
+
+# Database Schemas & Models
+*.sql
+/prisma/migrations/
+/db/schemas/
