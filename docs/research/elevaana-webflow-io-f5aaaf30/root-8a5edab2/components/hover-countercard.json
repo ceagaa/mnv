@@ -1,0 +1,20 @@
+{
+ "before": {
+  "bg": "rgba(0, 0, 0, 0)",
+  "transform": "matrix(1, 0, 0, 1, 0, 0)",
+  "boxShadow": "none",
+  "transition": "all",
+  "opacity": "1",
+  "color": "rgb(51, 51, 51)",
+  "border": ""
+ },
+ "after": {
+  "bg": "rgba(0, 0, 0, 0)",
+  "transform": "matrix(1, 0, 0, 1, 0, 0)",
+  "boxShadow": "none",
+  "transition": "all",
+  "opacity": "1",
+  "color": "rgb(51, 51, 51)",
+  "border": ""
+ }
+}

@@ -1,0 +1,553 @@
+{
+  "headerTop": {
+    "nav": {
+      "bg": "rgba(221, 221, 221, 0)",
+      "position": "relative",
+      "top": "0px",
+      "boxShadow": "none",
+      "transform": "none",
+      "rect": {
+        "y": 14,
+        "h": 139
+      }
+    },
+    "header": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "position": "static",
+      "top": "auto",
+      "boxShadow": "none",
+      "transform": "none",
+      "rect": {
+        "y": 0,
+        "h": 153
+      }
+    },
+    "scrollY": 0
+  },
+  "headerScrolled400": {
+    "nav": {
+      "bg": "rgba(221, 221, 221, 0)",
+      "position": "relative",
+      "top": "0px",
+      "boxShadow": "none",
+      "transform": "none",
+      "rect": {
+        "y": -386,
+        "h": 139
+      }
+    },
+    "header": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "position": "static",
+      "top": "auto",
+      "boxShadow": "none",
+      "transform": "none",
+      "rect": {
+        "y": -400,
+        "h": 153
+      }
+    },
+    "scrollY": 400
+  },
+  "headerScrolled1200": {
+    "nav": {
+      "bg": "rgba(221, 221, 221, 0)",
+      "position": "relative",
+      "top": "0px",
+      "boxShadow": "none",
+      "transform": "none",
+      "rect": {
+        "y": -1186,
+        "h": 139
+      }
+    },
+    "header": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "position": "static",
+      "top": "auto",
+      "boxShadow": "none",
+      "transform": "none",
+      "rect": {
+        "y": -1200,
+        "h": 153
+      }
+    },
+    "scrollY": 1200
+  },
+  "primaryButtonHover": {
+    "before": {
+      "root": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "opacity": "1",
+        "position": "static",
+        "top": "auto",
+        "left": "auto"
+      },
+      "bg": {
+        "bg": "rgb(17, 44, 35)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "opacity": "1",
+        "position": "absolute",
+        "top": "0px",
+        "left": "-2px"
+      },
+      "txt": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "all",
+        "opacity": "1",
+        "position": "relative",
+        "top": "0px",
+        "left": "0px"
+      },
+      "txtHover": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "transform": "none",
+        "transition": "all",
+        "opacity": "1",
+        "position": "absolute",
+        "top": "30px",
+        "left": "0px"
+      }
+    },
+    "after": {
+      "root": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "opacity": "1",
+        "position": "static",
+        "top": "auto",
+        "left": "auto"
+      },
+      "bg": {
+        "bg": "rgb(17, 44, 35)",
+        "color": "rgb(0, 0, 238)",
+        "transform": "none",
+        "transition": "all",
+        "opacity": "1",
+        "position": "absolute",
+        "top": "0px",
+        "left": "-2px"
+      },
+      "txt": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "transform": "matrix(1, 0, 0, 1, 0, -30)",
+        "transition": "all",
+        "opacity": "1",
+        "position": "relative",
+        "top": "0px",
+        "left": "0px"
+      },
+      "txtHover": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "transform": "matrix(1, 0, 0, 1, 0, -30)",
+        "transition": "all",
+        "opacity": "1",
+        "position": "absolute",
+        "top": "30px",
+        "left": "0px"
+      }
+    }
+  },
+  "serviceCardHover": {
+    "before": {
+      "card": {
+        "transform": "none",
+        "transition": "all",
+        "opacity": "1",
+        "display": "flex",
+        "bg": "rgba(0, 0, 0, 0)",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "position": "static"
+      },
+      "img": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "all",
+        "opacity": "1",
+        "display": "inline-block",
+        "bg": "rgba(0, 0, 0, 0)",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "position": "static"
+      },
+      "overlay": {
+        "transform": "matrix(1, 0, 0, 0, 0, 0)",
+        "transition": "all",
+        "opacity": "1",
+        "display": "block",
+        "bg": "rgb(255, 255, 255)",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "position": "absolute"
+      },
+      "arrow": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "all",
+        "opacity": "1",
+        "display": "flex",
+        "bg": "rgb(255, 255, 255)",
+        "top": "-60px",
+        "left": "346.656px",
+        "right": "24px",
+        "bottom": "535.891px",
+        "position": "absolute"
+      }
+    },
+    "after": {
+      "card": {
+        "transform": "none",
+        "transition": "all",
+        "opacity": "1",
+        "display": "flex",
+        "bg": "rgba(0, 0, 0, 0)",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "position": "static"
+      },
+      "img": {
+        "transform": "matrix(1.1, 0, 0, 1.1, 0, 0)",
+        "transition": "all",
+        "opacity": "1",
+        "display": "inline-block",
+        "bg": "rgba(0, 0, 0, 0)",
+        "top": "auto",
+        "left": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "position": "static"
+      },
+      "overlay": {
+        "transform": "matrix(1, 0, 0, 0, 0, 0)",
+        "transition": "all",
+        "opacity": "1",
+        "display": "block",
+        "bg": "rgb(255, 255, 255)",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "position": "absolute"
+      },
+      "arrow": {
+        "transform": "matrix(1, 0, 0, 1, 0, 80)",
+        "transition": "all",
+        "opacity": "1",
+        "display": "flex",
+        "bg": "rgb(255, 255, 255)",
+        "top": "-60px",
+        "left": "346.656px",
+        "right": "24px",
+        "bottom": "535.891px",
+        "position": "absolute"
+      }
+    }
+  },
+  "dropdownOpen": {
+    "display": "none",
+    "opacity": "1",
+    "visibility": "visible",
+    "transform": "none",
+    "bg": "rgb(221, 221, 221)",
+    "boxShadow": "none",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    }
+  },
+  "initialHidden": [
+    {
+      "cls": "metrics-section-title",
+      "tag": "h2",
+      "text": "What Sets Us Apart"
+    },
+    {
+      "cls": "metrics-section-text-wrap",
+      "tag": "div",
+      "text": "We don’t believe in cookie-cutter solutions. Every home and "
+    },
+    {
+      "cls": "background-video w-background-video w-background-video-atom",
+      "tag": "div",
+      "text": "<style> [data-wf-bgvideo-fallback-img] { display: none; } @m"
+    },
+    {
+      "cls": "w-backgroundvideo-backgroundvideoplaypausebutton play-pause-button w-background-",
+      "tag": "button",
+      "text": ""
+    },
+    {
+      "cls": "counter-card",
+      "tag": "div",
+      "text": "250+Successful Renovation Projects Completed"
+    },
+    {
+      "cls": "counter-card _02",
+      "tag": "div",
+      "text": "98%Overall Client Satisfaction Rate"
+    },
+    {
+      "cls": "counter-card",
+      "tag": "div",
+      "text": "12yrsCombined Industry Experience"
+    },
+    {
+      "cls": "counter-card-02",
+      "tag": "div",
+      "text": "63%Projects From Repeated Clients"
+    },
+    {
+      "cls": "white-color",
+      "tag": "h2",
+      "text": "Our Renovation Process"
+    },
+    {
+      "cls": "how-we-work-card",
+      "tag": "div",
+      "text": "Discovery and ConsultationWe begin by listening — understand"
+    },
+    {
+      "cls": "how-we-work-card",
+      "tag": "div",
+      "text": "Design and PlanningOur team develops a custom renovation pla"
+    },
+    {
+      "cls": "how-we-work-card",
+      "tag": "div",
+      "text": "Estimate and ApprovalYou’ll receive a detailed project quote"
+    },
+    {
+      "cls": "how-we-work-card",
+      "tag": "div",
+      "text": "Construction BeginsOur licensed professionals handle every p"
+    },
+    {
+      "cls": "",
+      "tag": "h2",
+      "text": "Our Work Gallery"
+    },
+    {
+      "cls": "",
+      "tag": "div",
+      "text": "See All Projects"
+    },
+    {
+      "cls": "w-dyn-list",
+      "tag": "div",
+      "text": "Interior & Exterior UpgradesCalifornia | Home renovation"
+    },
+    {
+      "cls": "gallery-shape",
+      "tag": "div",
+      "text": ""
+    },
+    {
+      "cls": "w-dyn-list",
+      "tag": "div",
+      "text": "Indoor & Outdoor ImprovementsCalifornia | Home renovation"
+    },
+    {
+      "cls": "gallery-shape",
+      "tag": "div",
+      "text": ""
+    },
+    {
+      "cls": "w-dyn-list",
+      "tag": "div",
+      "text": "Home Interior & Exterior UpdatesCalifornia | Home renovation"
+    },
+    {
+      "cls": "gallery-shape",
+      "tag": "div",
+      "text": ""
+    },
+    {
+      "cls": "w-dyn-list",
+      "tag": "div",
+      "text": "Inside & Outside RemodelingCalifornia | Home renovation"
+    },
+    {
+      "cls": "gallery-shape",
+      "tag": "div",
+      "text": ""
+    },
+    {
+      "cls": "align-center",
+      "tag": "h2",
+      "text": "Trusted by 310k+ Customers"
+    },
+    {
+      "cls": "testimonial-subtext",
+      "tag": "p",
+      "text": "Together, we can make a real impact in communities around th"
+    },
+    {
+      "cls": "testimonial-card",
+      "tag": "div",
+      "text": "“This charity provided critical medical aid to our community"
+    },
+    {
+      "cls": "testimonial-card",
+      "tag": "div",
+      "text": "“I’ve had the privilege to volunteer here, and seeing the di"
+    },
+    {
+      "cls": "testimonial-card",
+      "tag": "div",
+      "text": "“Their transparency inspire us to give more and make a bigge"
+    },
+    {
+      "cls": "testimonial-card",
+      "tag": "div",
+      "text": "“After losing our home to a flood, they helped us rebuild an"
+    },
+    {
+      "cls": "testimonial-card",
+      "tag": "div",
+      "text": "“My children now have access to clean water and meals thanks"
+    },
+    {
+      "cls": "testimonial-card",
+      "tag": "div",
+      "text": "“Knowing my monthly donations supporting children’s educatio"
+    },
+    {
+      "cls": "our-expart-title",
+      "tag": "h2",
+      "text": "Our experienced team handles every detail with care, precisi"
+    },
+    {
+      "cls": "our-expart-description",
+      "tag": "p",
+      "text": "Whether you’re updating a single room or transforming your e"
+    },
+    {
+      "cls": "",
+      "tag": "div",
+      "text": "Get a Free QuoteGet a Free Quote"
+    },
+    {
+      "cls": "our-expart-card",
+      "tag": "div",
+      "text": "Craftsmanship You Can CountWe respect your time and your inv"
+    },
+    {
+      "cls": "our-expart-card",
+      "tag": "div",
+      "text": "Structural Knowledge & SenseFrom floor plans to finishes, we"
+    },
+    {
+      "cls": "our-expart-card",
+      "tag": "div",
+      "text": "On-Time & On-Budget DeliveryWe respect your time and your in"
+    },
+    {
+      "cls": "heading-2",
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "cls": "single-faq w-dropdown",
+      "tag": "div",
+      "text": "How long does a typical renovation take?Project timelines va"
+    },
+    {
+      "cls": "single-faq w-dropdown",
+      "tag": "div",
+      "text": "Do you provide free consultations?Depending on scope, smalle"
+    },
+    {
+      "cls": "single-faq w-dropdown",
+      "tag": "div",
+      "text": "Can I live in my home during the renovation?Duration varies "
+    },
+    {
+      "cls": "single-faq w-dropdown",
+      "tag": "div",
+      "text": "What areas do you serve?The timeline depends on how extensiv"
+    },
+    {
+      "cls": "single-faq w-dropdown",
+      "tag": "div",
+      "text": "Are your renovations fully insured and licensed?Project leng"
+    },
+    {
+      "cls": "cta-title",
+      "tag": "h2",
+      "text": "Need a Renovation You Can Trust? Let’s Redesign Your Home"
+    },
+    {
+      "cls": "cta-subtext",
+      "tag": "p",
+      "text": "Renovation experience that’s smooth from start to finish. Bo"
+    },
+    {
+      "cls": "cta-buttons",
+      "tag": "div",
+      "text": "Book A Free ConsultationBook A Free Consultation"
+    },
+    {
+      "cls": "footer-content-left",
+      "tag": "div",
+      "text": "Renovation experience that’s smooth from start to finish. Bo"
+    },
+    {
+      "cls": "navitem-list-2",
+      "tag": "div",
+      "text": "Quick LinksHomeAbout usServicesProjects"
+    },
+    {
+      "cls": "navitem-list-2",
+      "tag": "div",
+      "text": "Quick LinksPricingReviewsContact usLicense"
+    },
+    {
+      "cls": "footer-form-wrap",
+      "tag": "div",
+      "text": "Join our newsletterJoin our email list underneath and always"
+    },
+    {
+      "cls": "footer-bottom-content",
+      "tag": "div",
+      "text": "SINCE. 2025©Elevana. All rights reserved.Powered by Webflow"
+    }
+  ],
+  "afterFullScrollHidden": [
+    {
+      "cls": "w-backgroundvideo-backgroundvideoplaypausebutton play-pause-button w-background-"
+    },
+    {
+      "cls": "gallery-shape"
+    },
+    {
+      "cls": "gallery-shape"
+    },
+    {
+      "cls": "gallery-shape"
+    },
+    {
+      "cls": "gallery-shape"
+    }
+  ]
+}
