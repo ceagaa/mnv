@@ -1,29 +1,27 @@
-import { CtaSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/CtaSection";
-import { ExpertiseSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/ExpertiseSection";
-import { FaqSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/FaqSection";
-import { Footer } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/Footer";
-import { GallerySection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/GallerySection";
-import { Header } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/Header";
-import { HeroSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/HeroSection";
-import { HowWeWorkSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/HowWeWorkSection";
-import { MetricsSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/MetricsSection";
-import { ServicesSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/ServicesSection";
-import { TestimonialSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/TestimonialSection";
-import { TopLabelSection } from "@/components/sites/elevaana-webflow-io-f5aaaf30/root-8a5edab2/TopLabelSection";
+import { CtaSection } from "@/components/sections/CtaSection";
+import { ExpertiseSection } from "@/components/sections/ExpertiseSection";
+import { FaqSection } from "@/components/sections/FaqSection";
+import { Footer } from "@/components/sections/Footer";
+import { Header } from "@/components/sections/Header";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { HowWeWorkSection } from "@/components/sections/HowWeWorkSection";
+import { MetricsSection } from "@/components/sections/MetricsSection";
+import { ServicesSection } from "@/components/sections/ServicesSection";
+import { TestimonialSection } from "@/components/sections/TestimonialSection";
+import { TopLabelSection } from "@/components/sections/TopLabelSection";
 
 export default function Home() {
   return (
     <div className="sections overflow-x-clip">
       <Header />
       <HeroSection />
-      <ServicesSection />
       <MetricsSection />
-      <HowWeWorkSection />
-      <GallerySection />
-      <TestimonialSection />
+      <ServicesSection />
       <ExpertiseSection />
-      <FaqSection />
+      <HowWeWorkSection />
+      <TestimonialSection />
       <CtaSection />
+      <FaqSection />
       <TopLabelSection />
       <Footer />
     </div>
