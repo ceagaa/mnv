@@ -4,11 +4,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mnvseguranca.com.br"),
-  title: "Segurança contra Incêndio e Pânico no Rio de Janeiro | AVCB – MNV",
+  title: "Segurança contra Incêndio e Pânico no Rio de Janeiro | AVCB, MNV",
   description:
     "Consultoria em segurança contra incêndio e pânico no Rio de Janeiro: legalização, redação de AVCB, vistoria do CBMERJ e alvará do Corpo de Bombeiros.",
   openGraph: {
-    title: "Segurança contra Incêndio e Pânico no Rio de Janeiro | AVCB – MNV",
+    title: "Segurança contra Incêndio e Pânico no Rio de Janeiro | AVCB, MNV",
     description:
       "Legalização, redação de AVCB, vistoria do CBMERJ e alvará do Corpo de Bombeiros para empresas no Rio de Janeiro.",
     locale: "pt_BR",
@@ -18,13 +18,13 @@ export const metadata: Metadata = {
         url: "/og-mnv.png",
         width: 1200,
         height: 630,
-        alt: "MNV — Segurança contra Incêndio e Pânico no Rio de Janeiro",
+        alt: "MNV, Segurança contra Incêndio e Pânico no Rio de Janeiro",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Segurança contra Incêndio e Pânico no Rio de Janeiro | AVCB – MNV",
+    title: "Segurança contra Incêndio e Pânico no Rio de Janeiro | AVCB, MNV",
     description:
       "Legalização, redação de AVCB, vistoria do CBMERJ e alvará do Corpo de Bombeiros para empresas no Rio de Janeiro.",
     images: ["/og-mnv.png"],

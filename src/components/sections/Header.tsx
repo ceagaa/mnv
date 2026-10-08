@@ -50,7 +50,7 @@ export function Header() {
             <div className="flex w-full items-center justify-between">
               <Link
                 href="/"
-                aria-label="MNV Segurança contra Incêndio e Pânico — início"
+                aria-label="MNV Segurança contra Incêndio e Pânico, início"
                 className="relative block max-w-[240px] min-[768px]:max-w-[260px]"
               >
                 <BrandLogo />

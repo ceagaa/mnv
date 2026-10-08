@@ -2,7 +2,7 @@
   "name": "mnv-seguranca",
   "version": "1.0.0",
   "private": true,
-  "description": "Site institucional da MNV — Segurança contra Incêndio e Pânico no Rio de Janeiro",
+  "description": "Site institucional da MNV, Segurança contra Incêndio e Pânico no Rio de Janeiro",
   "author": "2swebtech",
   "license": "MIT",
   "engines": {

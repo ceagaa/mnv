@@ -163,7 +163,7 @@ export function MetricsSection() {
                 Cada etapa é executada conforme as Instruções Técnicas do CBMERJ
                 e as normas ABNT, com relatório claro do que precisa ser feito
                 antes da vistoria. Você sabe o custo, o prazo e o que falta para
-                obter o AVCB — sem surpresa e sem obra desnecessária.
+                obter o AVCB, sem surpresa e sem obra desnecessária.
               </p>
             </div>
           </div>

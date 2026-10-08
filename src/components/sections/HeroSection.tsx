@@ -21,7 +21,7 @@ const FEATURE_CARDS = [
   {
     icon: ASSETS.iconLegal,
     title: "Do diagnóstico à emissão do AVCB",
-    body: "Acompanhamos documento, obra e vistoria até a liberação do alvará — sem retrabalho e sem multa.",
+    body: "Acompanhamos documento, obra e vistoria até a liberação do alvará, sem retrabalho e sem multa.",
     delay: "delay-[400ms]",
   },
 ] as const;
@@ -126,7 +126,7 @@ export function HeroSection() {
             >
               Somos especialistas em serviços e consultoria para legalização,
               redação de AVCB e demais certificações e alvarás. Assumimos o
-              processo junto ao CBMERJ — projeto, adequação, vistoria e emissão —
+              processo junto ao CBMERJ, projeto, adequação, vistoria e emissão,
               para sua obra ou estabelecimento ser aprovado sem retrabalho.
             </p>
 

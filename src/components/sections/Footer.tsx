@@ -145,13 +145,13 @@ export function Footer() {
                 <div className="flex flex-col items-start gap-[20px] md:gap-[24px]">
                   <Link
                     href="/"
-                    aria-label="MNV Segurança contra Incêndio e Pânico — início"
+                    aria-label="MNV Segurança contra Incêndio e Pânico, início"
                     className="block max-w-full"
                   >
                     <BrandLogo />
                   </Link>
                   <p className="font-sans text-[16px] leading-[27.2px] text-[#C9D2E6]">
-                    MNV — legalização e consultoria em segurança contra incêndio
+                    MNV, legalização e consultoria em segurança contra incêndio
                     e pânico no Rio de Janeiro. Atendimento em toda a capital e
                     região metropolitana.
                   </p>
@@ -196,8 +196,8 @@ export function Footer() {
                     Precisa de ajuda?
                   </h2>
                   <p className="mb-[4px] font-heading text-[16px] leading-[27.2px] font-normal text-[#C9D2E6]">
-                    Diga o tipo de imóvel e a situação atual — obra nova,
-                    renovação de AVCB ou vistoria reprovada — e um especialista
+                    Informe o tipo de imóvel e a situação atual, como obra nova,
+                    renovação de AVCB ou vistoria reprovada, e um especialista
                     responde com o próximo passo.
                   </p>
                 </div>
@@ -221,7 +221,7 @@ export function Footer() {
               )}
             >
               <p className="font-sans text-[16px] leading-[27.2px] text-[#B9C2D6]">
-                Rio de Janeiro, RJ — Brasil
+                Rio de Janeiro, RJ, Brasil
               </p>
               <p className="font-sans text-[16px] leading-[27.2px] text-[#B9C2D6]">
                 © {new Date().getFullYear()} MNV Segurança contra Incêndio e

@@ -170,7 +170,7 @@ export function ExpertiseSection() {
                   A MNV nasceu para resolver o que atrasa obras: a aprovação do
                   Corpo de Bombeiros. Unindo serviços e consultoria, cuidamos da
                   documentação, dos projetos e da adequação física do imóvel para
-                  que a vistoria seja aprovada na primeira visita — em
+                  que a vistoria seja aprovada na primeira visita, em
                   conformidade com as normas ABNT, a NR-23 e as Instruções
                   Técnicas do CBMERJ.
                 </p>
