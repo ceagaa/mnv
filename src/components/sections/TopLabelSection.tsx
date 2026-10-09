@@ -25,7 +25,7 @@ function TickerDot() {
 function PhoneItem() {
   return (
     <div className="flex gap-[12px]">
-      <img src={PHONE_ICON} alt="" className="block h-auto max-w-full" />
+      <img src={PHONE_ICON} alt="" width={40} height={40} className="block h-auto max-w-full" />
       <span
         className={cn(
           "whitespace-nowrap font-heading font-semibold text-[28px] leading-[33.6px] tracking-[0px] text-white md:text-[38px] md:leading-[45.6px] md:tracking-[-1px] lg:text-[48px] lg:leading-[57.6px] lg:tracking-[-1.5px]",

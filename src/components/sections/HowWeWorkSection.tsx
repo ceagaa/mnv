@@ -56,6 +56,8 @@ function Reveal({ children, className }: RevealProps) {
 
 type Step = {
   number: string;
+  width: number;
+  height: number;
   title: string;
   description: string;
 };
@@ -63,24 +65,32 @@ type Step = {
 const STEPS: Step[] = [
   {
     number: ASSETS.step1,
+    width: 134,
+    height: 200,
     title: "Diagnóstico e consultoria",
     description:
       "Visitamos o imóvel, verificamos sistemas e documentos e entregamos o plano de adequação com custo e prazo definidos.",
   },
   {
     number: ASSETS.step2,
+    width: 143,
+    height: 200,
     title: "Projeto e documentação",
     description:
       "Elaboramos projeto técnico, memorial e apostilamento conforme as normas ABNT e as Instruções Técnicas do CBMERJ.",
   },
   {
     number: ASSETS.step3,
+    width: 143,
+    height: 200,
     title: "Adequação e instalação",
     description:
       "Executamos o que a vistoria exige: detecção, alarme, hidrantes, iluminação de emergência e sinalização de rotas de fuga.",
   },
   {
     number: ASSETS.step4,
+    width: 154,
+    height: 200,
     title: "Vistoria e emissão do AVCB",
     description:
       "Acompanhamos a vistoria do Corpo de Bombeiros e o processo até a emissão do AVCB e da liberação do alvará.",
@@ -125,6 +135,8 @@ export function HowWeWorkSection() {
                 <img
                   src={step.number}
                   alt=""
+                  width={step.width}
+                  height={step.height}
                   className="h-auto max-w-full max-[992px]:w-[100px] max-[480px]:w-[60px]"
                 />
                 <div className="flex min-w-0 flex-1 flex-col gap-[8px] max-[480px]:w-full max-[480px]:flex-none">

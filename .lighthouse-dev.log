@@ -1,0 +1,26 @@
+
+> mnv-seguranca@1.0.0 dev
+> next dev -p 3003
+
+▲ Next.js 16.4.0 (Turbopack)
+- Local:         http://localhost:3003
+- Network:       http://192.168.15.2:3003
+✓ Ready in 879ms
+✓ Running next.config.ts took 1851ms
+Using secrets defined in .dev.vars
+
+ GET / 200 in 912ms (next.js: 410ms, application-code: 502ms)
+ GET / 200 in 173ms (next.js: 3ms, application-code: 170ms)
+ GET /robots.txt 404 in 2.7s (next.js: 2.4s, application-code: 274ms)
+ GET / 200 in 281ms (next.js: 4ms, application-code: 276ms)
+✓ Compiled in 1746ms
+ GET / 200 in 3.1s (next.js: 576ms, application-code: 2.5s)
+ GET / 200 in 1254ms (next.js: 15ms, application-code: 1239ms)
+ GET / 200 in 1032ms (next.js: 42ms, application-code: 990ms)
+ GET / 200 in 695ms (next.js: 18ms, application-code: 676ms)
+ GET / 200 in 635ms (next.js: 53ms, application-code: 581ms)
+ GET / 200 in 882ms (next.js: 7ms, application-code: 875ms)
+ GET / 200 in 1261ms (next.js: 39ms, application-code: 1223ms)
+ GET / 200 in 1404ms (next.js: 42ms, application-code: 1362ms)
+ GET / 200 in 620ms (next.js: 17ms, application-code: 603ms)
+ GET / 200 in 391ms (next.js: 7ms, application-code: 383ms)

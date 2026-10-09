@@ -12,18 +12,20 @@ import { TopLabelSection } from "@/components/sections/TopLabelSection";
 
 export default function Home() {
   return (
-    <div className="sections overflow-x-clip">
-      <Header />
-      <HeroSection />
-      <MetricsSection />
-      <ServicesSection />
-      <ExpertiseSection />
-      <HowWeWorkSection />
-      <TestimonialSection />
-      <CtaSection />
-      <FaqSection />
-      <TopLabelSection />
+    <>
+      <main className="sections overflow-x-clip">
+        <Header />
+        <HeroSection />
+        <MetricsSection />
+        <ServicesSection />
+        <ExpertiseSection />
+        <HowWeWorkSection />
+        <TestimonialSection />
+        <CtaSection />
+        <FaqSection />
+        <TopLabelSection />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
